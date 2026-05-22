@@ -51,7 +51,7 @@ Use `docs/code-samples.md` for the final PDF snippets:
 The prototype is deployed as a live PHP/MySQL website so it can be assessed without using localhost. The deployment guide and verification notes are in `docs/live-deployment-guide.md`.
 
 - Live website URL: `https://kasiswap.free.nf/`
-- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-frontend-core`
+- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-php-mysql-deliverable-2`
 
 ## 2.6 Conclusion
 KasiSwap demonstrates a functional C2C e-commerce platform that responds directly to the South African informal-economy scenario. The system supports buyers, sellers, and administrators, while addressing trust risk through seller verification, in-app messaging, protected order states, dispute handling, and audit logs. The prototype also applies secure development practices such as prepared statements, hashed passwords, CSRF protection, session-based authentication, and role-based access control. This makes the project suitable for the Deliverable 2 requirements and provides a strong foundation for live deployment and future portfolio improvement.

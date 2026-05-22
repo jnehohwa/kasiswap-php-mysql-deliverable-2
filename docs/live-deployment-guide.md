@@ -64,7 +64,7 @@ return [
 Use these in the final PDF:
 
 - Live website URL: `https://kasiswap.free.nf/`
-- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-frontend-core`
+- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-php-mysql-deliverable-2`
 
 ## Live Verification Checklist
 - Home page opens without localhost.

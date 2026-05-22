@@ -4,7 +4,7 @@
 From the repo:
 
 ```bash
-cd "/Users/joshuanehohwa/Documents/New project/kasiswap-frontend-core/php-app"
+cd kasiswap-php-mysql-deliverable-2
 docker-compose up -d
 ```
 
@@ -114,7 +114,7 @@ Wait until MySQL is healthy, then refresh the site.
 For the final submission, localhost is not enough. The live deployment is available here:
 
 - Live website URL: `https://kasiswap.free.nf/`
-- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-frontend-core`
+- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-php-mysql-deliverable-2`
 - Screenshots from the live hosted site if required
 
 Use `docs/live-deployment-guide.md` for deployment details and final verification checks.

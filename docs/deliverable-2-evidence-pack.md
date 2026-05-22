@@ -118,7 +118,7 @@ See `docs/code-samples.md` for ready-to-paste snippets and short explanations.
 The assignment requires a live hosted website, not localhost. KasiSwap is currently deployed on InfinityFree:
 
 - Live website URL: `https://kasiswap.free.nf/`
-- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-frontend-core`
+- GitHub repository URL: `https://github.com/jnehohwa/kasiswap-php-mysql-deliverable-2`
 - Live-hosted screenshots can be captured from this domain if the lecturer requires screenshots from the hosted site rather than local Docker.
 
 This hosting choice fits the project because the app intentionally uses PHP and MySQL for rubric compliance.
