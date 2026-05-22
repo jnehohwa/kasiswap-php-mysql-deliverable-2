@@ -1,0 +1,9 @@
+# Keep GitHub language stats focused on the rubric implementation.
+*.md linguist-documentation
+docs/** linguist-documentation
+
+# The submission stack is PHP/MySQL with CSS and small JavaScript.
+*.php linguist-detectable=true
+*.sql linguist-detectable=true
+public/assets/css/*.css linguist-detectable=true
+public/assets/js/*.js linguist-detectable=true

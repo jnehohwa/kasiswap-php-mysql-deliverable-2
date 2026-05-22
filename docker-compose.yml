@@ -1,0 +1,50 @@
+services:
+  app:
+    build: .
+    container_name: kasiswap_php_app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      APP_ENV: local
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: kasiswap
+      DB_USER: kasiswap
+      DB_PASS: kasiswap
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mysql:8.0.28
+    container_name: kasiswap_mysql
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: kasiswap
+      MYSQL_USER: kasiswap
+      MYSQL_PASSWORD: kasiswap
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - kasiswap_mysql_data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  adminer:
+    image: adminer:latest
+    container_name: kasiswap_adminer
+    ports:
+      - "8081:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  kasiswap_mysql_data:

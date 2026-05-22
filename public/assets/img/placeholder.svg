@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">KasiSwap listing placeholder</title>
+  <desc id="desc">Simple placeholder for listings without an uploaded image.</desc>
+  <rect width="640" height="480" fill="#f2f4ef"/>
+  <rect x="52" y="56" width="536" height="368" rx="20" fill="#ffffff" stroke="#d6dcca"/>
+  <circle cx="214" cy="190" r="58" fill="#dbe7c5"/>
+  <path d="M112 376l126-128 90 82 62-58 138 104H112z" fill="#8aa66a"/>
+  <text x="320" y="112" text-anchor="middle" fill="#2f3a2d" font-family="Arial, sans-serif" font-size="30" font-weight="700">KasiSwap</text>
+</svg>
