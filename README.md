@@ -1,6 +1,6 @@
 # KasiSwap PHP/MySQL Deliverable 2
 
-This repository contains the rubric-specific PHP/MySQL version of KasiSwap. It is the submission implementation for Deliverable 2 and intentionally does not include the separate TypeScript/React portfolio prototype.
+This repository contains the files for KasiSwap. It is the submission implementation for Deliverable 2 
 
 Live deployment: https://kasiswap.free.nf/
 
@@ -44,9 +44,8 @@ All demo users use the password `password`.
 
 ## Marking Evidence
 
-Use these files for the Deliverable 2 pack:
 
-- `docs/deliverable-2-submission-draft.md` — report draft mapped to the rubric.
+- `docs/deliverable-2-submission-draft.md` — report draft 
 - `docs/deliverable-2-evidence-pack.md` — diagrams, design evidence, screenshot inventory, and test scenarios.
 - `docs/code-samples.md` — PHP, HTML, JavaScript, CSS, and MySQL snippets for the coding section.
 - `docs/deliverable-2-final-checklist.md` — final build, demo, deployment, and PDF readiness checks.
